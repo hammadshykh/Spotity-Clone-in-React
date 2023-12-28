@@ -15,10 +15,10 @@ const HomeMusic = () => {
     const paramId = queryParams.get("id");
     if (!paramId) return;
     setSongId(paramId);
-  }, []);
+  }, [location.search]);
 
   const songDetail = useMemo(() => {
-    return localData.filter((item) => item.id == songId);
+    return localData.filter((item) => item.id === songId)[0];
   }, [songId]);
 
   console.log(songId);

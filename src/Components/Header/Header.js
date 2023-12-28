@@ -2,10 +2,7 @@ import {
   Box,
   Button,
   Drawer,
-  DrawerBody,
   DrawerContent,
-  DrawerHeader,
-  DrawerOverlay,
   Flex,
   Image,
   Text,
@@ -15,7 +12,7 @@ import { FiSearch } from "react-icons/fi";
 import { RiHome5Fill } from "react-icons/ri";
 import { BiLibrary, BiMenu } from "react-icons/bi";
 import { BsFillPlusSquareFill } from "react-icons/bs";
-import { IoIosHeartDislike, IoMdMenu } from "react-icons/io";
+import { IoIosHeartDislike } from "react-icons/io";
 import { HiOutlineGlobeAlt } from "react-icons/hi";
 import { Link } from "react-router-dom";
 import React from "react";
@@ -23,7 +20,7 @@ import Popup from "../Popup/Popup";
 
 const Header = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const [placement, setPlacement] = React.useState("left");
+  // const [placement, set] = React.useState("left");
   return (
     <>
       <Flex
@@ -175,7 +172,7 @@ const Header = () => {
       >
         <BiMenu />
       </Button>
-      <Drawer placement={placement} onClose={onClose} isOpen={isOpen}>
+      <Drawer placement={"left"} onClose={onClose} isOpen={isOpen}>
         <DrawerContent bg="black">
           <Flex
             ps="10px"

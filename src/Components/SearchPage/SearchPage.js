@@ -2,9 +2,7 @@ import {
   Box,
   Flex,
   Heading,
-  Image,
   Input,
-  Link,
   SimpleGrid,
   Text,
 } from "@chakra-ui/react";
@@ -12,7 +10,7 @@ import Header from "../Header/Header";
 import MainHeader from "../MainHeader/MainHeader";
 import React, { useState } from "react";
 import { BiSearch } from "react-icons/bi";
-import { BsPlayCircleFill } from "react-icons/bs";
+// import { BsPlayCircleFill } from "react-icons/bs";
 import { default as MusicData } from "../LocalData/LocalData.json";
 import SongCard from "./SongCard";
 

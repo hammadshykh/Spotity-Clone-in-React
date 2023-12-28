@@ -1,7 +1,6 @@
 import "../Cards/cards.css";
 import { Box, Flex, Heading, Image, SimpleGrid, Text } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
-import { BiHeart } from "react-icons/bi";
 import { BsPlayCircleFill } from "react-icons/bs";
 
 // 👇️ get ID from url

@@ -1,12 +1,12 @@
 import React, { useEffect, useMemo, useState } from "react";
-import Main_Track from "./Main_Track";
 import { default as localData } from "../LocalData//LocalData.json";
 import { useLocation } from "react-router-dom";
 import { Box, Flex } from "@chakra-ui/react";
 import MainHeader from "../MainHeader/MainHeader";
 import Header from "../Header/Header";
+import MainTrack from "./MainTrack";
 
-const Track = ({}) => {
+const Track = () => {
   const [songId, setSongId] = useState(null);
   const location = useLocation();
 
@@ -16,7 +16,7 @@ const Track = ({}) => {
     if (!paramId) return;
     setSongId(paramId);
     // console.log(songId);
-  }, []);
+  }, [location.search]);
 
   const songDetail = useMemo(() => {
     return localData.filter((item) => item.id === songId)[0];
@@ -32,7 +32,7 @@ const Track = ({}) => {
         <Box w="100%">
           <MainHeader />
           <Box bg="#262626" padding="20px">
-            <Main_Track data={songDetail} />
+            <MainTrack data={songDetail} />
           </Box>
         </Box>
       </Flex>

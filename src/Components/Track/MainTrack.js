@@ -22,7 +22,7 @@ import { RxDotsHorizontal } from "react-icons/rx";
 import { Link } from "react-router-dom";
 import { default as MusicData } from "../LocalData/LocalData.json";
 
-const Main_Track = ({ data }) => {
+const MainTrack = ({ data }) => {
   const [isPlaying] = useState(false);
   return (
     <>
@@ -207,4 +207,4 @@ const Main_Track = ({ data }) => {
   );
 };
 
-export default Main_Track;
+export default MainTrack;

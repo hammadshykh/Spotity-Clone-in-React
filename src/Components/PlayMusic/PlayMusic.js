@@ -9,36 +9,35 @@ import {
   Tbody,
   Td,
   Text,
-  Tfoot,
-  Th,
   Thead,
   Tooltip,
   Tr,
 } from "@chakra-ui/react";
-import React, { useState } from "react";
+// import React, { useState } from "react";
 import { BiHeart } from "react-icons/bi";
 import { RxDotsHorizontal } from "react-icons/rx";
-import { Link, useParams } from "react-router-dom";
-import { BsPlayCircleFill, BsSpotify, BsThreeDots } from "react-icons/bs";
+import { Link } from "react-router-dom";
+import { BsSpotify } from "react-icons/bs";
 import { default as MusicData } from "../LocalData/LocalData.json";
 import { FiClock } from "react-icons/fi";
 const PlayMusic = ({ data }) => {
   console.log(data);
   // Set initial state of song
 
-  const [isPlaying, setPlaying] = useState(false);
-  const [audio, setAudio] = useState(new Audio(data?.music));
-  const playPaus = () => {
-    if (isPlaying) {
-      // Pause the song if it is playing
-      audio.pause();
-    } else {
-      // Play the song if it is paused
-      audio.play();
-    }
-    // Change the state of song
-    setPlaying(!isPlaying);
-  };
+  // const [isPlaying, setPlaying] = useState(false);
+  // const [audio, setAudio] = useState(new Audio(data?.music));
+
+  // const playPaus = () => {
+  //   if (isPlaying) {
+  //     // Pause the song if it is playing
+  //     audio.pause();
+  //   } else {
+  //     // Play the song if it is paused
+  //     audio.play();
+  //   }
+  //   // Change the state of song
+  //   setPlaying(!isPlaying);
+  // };
 
   return (
     <>
@@ -93,7 +92,7 @@ const PlayMusic = ({ data }) => {
       </Box>
       <Box p="30px">
         <Flex align="center">
-          <Text color={isPlaying ? "red" : "#1cca1c"} fontSize="60px">
+          <Text>
             {/* <BsPlayCircleFill cursor="pointer" onClick={() => playPaus()} /> */}
             <audio
               style={{ width: "200px", height: "30px" }}

@@ -1,4 +1,4 @@
-import { Box, Heading, Image, SimpleGrid, Text } from "@chakra-ui/react";
+import { Box, Image, Text } from "@chakra-ui/react";
 import React from "react";
 import { Link } from "react-router-dom";
 import { BsPlayCircleFill } from "react-icons/bs";
