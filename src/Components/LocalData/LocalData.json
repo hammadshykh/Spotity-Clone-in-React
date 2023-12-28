@@ -1,0 +1,110 @@
+[
+  {
+    "id": "1",
+    "music": "/audio/Alone_Pt_2.mp3",
+    "image": "/images/screen-2.jpg",
+    "title": "Alan Walker",
+    "discription": " this is very amaizing song is alan walker english",
+    "date": "6 days ago",
+    "time": "1:33"
+  },
+  {
+    "id": "2",
+    "music": "/audio/Tum_Hi_Ho.mp3",
+    "image": "/images/tum-hi-ho.jpg",
+    "title": "Tum hi ho",
+    "discription": "Ashiqe 2",
+    "date": "6 days ago",
+    "time": "1:22"
+  },
+  {
+    "id": "3",
+    "music": "/audio/Darkside.mp3",
+    "image": "/images/dark-side.jpg",
+    "title": "Dark side",
+    "discription": " this is very amaizing song is alan walker english",
+    "date": "6 days ago",
+    "time": "1:20"
+  },
+  {
+    "id": "4",
+    "music": "/audio/Rosa_Linn_SNAP.mp3",
+    "image": "/images/Rosa-Linn.jpg",
+    "title": "Snapi one two",
+    "discription": "I just Need Time",
+    "date": "6 days ago",
+    "time": "1:58"
+  },
+  {
+    "id": "5",
+    "music": "/audio/Sajna Song Yashal Shahid.mp3",
+    "image": "/images/sajna.jpg",
+    "title": "Teri Yaada sahary",
+    "discription": "Yashal Shahid sajna orignal by sibtain khalilly ",
+    "date": "6 days ago",
+    "time": "1:40"
+  },
+  {
+    "id": "6",
+    "music": "/audio/Chaand Baaliyan - Aditya A.mp3",
+    "image": "/images/148955-chaand-baaliyan-aditya-a-mp3-song-300.jpg",
+    "title": "Chand baliyaa",
+    "discription": "dekho main tujhy ya dekhoon qudrat ky nazary",
+    "date": "6 days ago",
+    "time": "1:58"
+  },
+  {
+    "id": "7",
+    "music": "/audio/Kahani Suno 2 Kaifi Khalil.mp3",
+    "image": "/images/kahani-suno.jpg",
+    "title": "Kahani Suno-2.0",
+    "discription": "Kahani suno 2.0 version kafi khalil",
+    "date": "6 days ago",
+    "time": "1:40"
+  },
+  {
+    "id": "8",
+    "music": "/audio/Teri Kali Aankhen.mp3",
+    "image": "/images/main-hoon-sath-tere.jpg",
+    "title": "Main hoon sath tere",
+    "discription": "Teri kaali Aankhien mere khwab ka hai dariya",
+    "date": "6 days ago",
+    "time": "1:58"
+  },
+  {
+    "id": "9",
+    "music": "/audio/Alan_Walker_K-391_Emelie_Hollow_-_Lily.mp3",
+    "image": "/images/lily.jpg",
+    "title": "Lily Alan walker K-391",
+    "discription": "Alan Walker, K-391 & Emelie Hollow - Lily (Lyrics)",
+    "date": "6 days ago",
+    "time": "1:58"
+  },
+  {
+    "id": "10",
+    "music": "/audio/Pehli Nazar Mein(Slowed - Reverb) Atif Aslam(audiosong.in).mp3",
+    "image": "/images/pehli-nazar.jpg",
+    "title": "Pehli Nazar Mein ",
+    "discription": "Pehli Nazar Mein (Unplugged) - Atif Aslam ",
+    "date": "6 days ago",
+    "time": "1:58"
+  },
+  {
+    "id": "11",
+    "music": "/audio/Jaanay Iss Dil-Hadiqa Kiani -VlcMusic.CoM.mp3",
+    "image": "/images/timthumb.jpg",
+    "title": "Jaanay Iss Dil ka hall",
+    "discription": "Jaanay Iss Dil ka hall kiya hoga Hadiqa Kiani",
+    "date": "6 days ago",
+    "time": "1:58"
+  },
+  {
+    "id": "12",
+    "music": "/audio/Hurts-So-Good-Astrid-S-sped-up-reverb.mp3",
+    "image": "/images/hurts-so-good.jpg",
+    "title": "hurts-so-good",
+    "discription": "Astrid S – Hurts So Good Lyrics | Genius Lyrics",
+    "date": "6 days ago",
+    "time": "1:58"
+  }
+]

@@ -1,0 +1,16 @@
+.play-btn {
+  opacity: 0;
+  transition: 0.5s;
+}
+.cards{
+    transition: 0.3s;
+}
+.cards:hover {
+  cursor: pointer;
+  background-color: #f0f8ff2a;
+}
+
+.cards:hover .play-btn {
+  padding-top: -20px;
+  opacity: 1;
+}
